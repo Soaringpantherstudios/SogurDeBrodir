@@ -1,0 +1,33 @@
+{
+    "name": "Main Menu",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "2776b864-51bd-48f7-88dc-e6b3f87966ea",
+            "actions": [
+                {
+                    "name": "Move Controller",
+                    "type": "Value",
+                    "id": "9c3e7ea2-1bd2-413a-83fe-29d38d5b69bc",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8ee1a0df-797b-44a0-807b-a6e5037646f4",
+                    "path": "<XInputController>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Controller",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

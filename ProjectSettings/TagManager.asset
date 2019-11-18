@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Ground2
   - 
   - 
   - 
@@ -40,4 +40,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1392493029
+    locked: 0
+  - name: HighGround
+    uniqueID: 2874655655
+    locked: 0
+  - name: Background
+    uniqueID: 1154797653
+    locked: 0
+  - name: Trees_Ground
+    uniqueID: 454875343
+    locked: 0
+  - name: Brigde_Ground
+    uniqueID: 1591074569
+    locked: 0
+  - name: Player
+    uniqueID: 4528945
+    locked: 0
+  - name: Foreground
+    uniqueID: 651037541
     locked: 0
