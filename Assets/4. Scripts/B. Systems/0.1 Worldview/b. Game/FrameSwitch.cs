@@ -28,12 +28,12 @@ public class FrameSwitch : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D Edge)
     {
-        if(Frame1.active == true)
+        if(Edge.tag == "Player" && Frame1.active == true)
         {
             Frame1.SetActive(false);
             Frame2.SetActive(true);
         }
-        else if(Frame1.active == false)
+        else if (Edge.tag == "Player" && Frame1.active == false)
         {
             Frame1.SetActive(true);
             Frame2.SetActive(false);

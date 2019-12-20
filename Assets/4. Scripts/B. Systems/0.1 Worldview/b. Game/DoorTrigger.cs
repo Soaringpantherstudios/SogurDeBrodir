@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class DoorTrigger : MonoBehaviour
@@ -8,6 +9,10 @@ public class DoorTrigger : MonoBehaviour
     #region Variables
 
     public string sceneName;
+
+    [SerializeField]
+    GameObject SceneChangePanel;
+
 
     #endregion
 
@@ -26,18 +31,30 @@ public class DoorTrigger : MonoBehaviour
     }
     #endregion
 
-
     #region Detect Player
     // Funtion is used to detect the player //
 
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
             Debug.Log("Player Has entered");
-            SceneManager.LoadScene(sceneName);
-            
+            SceneChangePanel.SetActive(true);
+            // Need to pause the game at this point so the player can choose their option
         }
+    }
+    #endregion
+
+    #region UI Functions
+
+    public void Yes()
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void No()
+    {
+        SceneChangePanel.SetActive(false);
     }
     #endregion
 }
