@@ -38,7 +38,7 @@ public class DoorTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("Player Has entered");
+            //Debug.Log("Player Has entered");
             SceneChangePanel.SetActive(true);
             // Need to pause the game at this point so the player can choose their option
         }

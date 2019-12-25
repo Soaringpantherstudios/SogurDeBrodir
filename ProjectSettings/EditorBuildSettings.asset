@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/5. Scenes/C. Platformer/Cave.unity
     guid: e2201413bd5471f4788596a99b02e06b
-  - enabled: 1
-    path: Assets/5. Scenes/Dark Forest.unity
-    guid: a69e37a8efeb3d446af26f7ca6b5cafc
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

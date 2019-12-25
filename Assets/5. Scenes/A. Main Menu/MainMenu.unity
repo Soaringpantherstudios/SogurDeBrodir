@@ -1968,7 +1968,7 @@ MonoBehaviour:
   startGameButton: {fileID: 1057942649}
   OptionsButton: {fileID: 700765166}
   quitGameButton: {fileID: 415635482}
-  sceneName: WorldView_Center
+  sceneName: World
   gameSettings: {fileID: 100551444}
   videoSettings: {fileID: 80957193}
   audioSettings: {fileID: 1049122398}
